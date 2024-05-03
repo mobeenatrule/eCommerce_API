@@ -19,11 +19,16 @@ HumbleMediator
 Logging - SeriLog 
 Dependency injection - SimpleInjector
 
-Endpoint - POST /api/Products
-Endpoint - GET /api/Products
-Endpoint - GET /api/Products/{id}
-Endpoint - PUT /api/Products/{id}
-Endpoint - DELETE /api/Products/{id}
+ Endpoint - POST /api/Products
+ 
+ Endpoint - GET /api/Products
+ 
+ Endpoint - GET /api/Products/{id}
+ 
+ Endpoint - PUT /api/Products/{id}
+ 
+ Endpoint - DELETE /api/Products/{id}
+ 
 
 Defined in the ProductssController - the endpoints accept the command and relays it to mediator to execute the command.
 
